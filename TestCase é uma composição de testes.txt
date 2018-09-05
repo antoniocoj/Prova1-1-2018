@@ -1,0 +1,8 @@
+a) TestCase é uma composição de testes, definidos por meio de testes. Define um conjunto de testes a serem executados, geralmente sobre a mesma unidade.
+TestSuite é uma classe que permite agrupar um conjunto de casos de teste e/ou suites de testes que serão executados em conjunto.
+TestRunner define e implementa maneiras diferentes de execução de testes.
+Assert é uma classe que define assertivas para verificação de testes.
+b) Suite é um runner padrão que permite criar manualmente um conjunto contendo testes de várias classes.
+Parameterized é um runner padrão que implementa testes parametrizados. Ao executar uma classe de teste parametrizada, instâncias são criadas para o produto cruzado dos métodos de teste e os elementos de dados de teste. 
+Categories é um runner padrão que permite que subconjuntos de testes marcados com determinadas categorias sejam executados / excluídos de uma determinada execução de teste.
+c) Cada teste é executado em um objeto separado um do outro.

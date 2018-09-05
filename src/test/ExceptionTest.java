@@ -15,7 +15,7 @@ public class ExceptionTest {
 	
 	@Test(expected = KMException.class)
 	public void testKMZero() throws BandeiraException, KMException {
-		CalculoTaxiDF.calculoTarifa(2, 0, 10);
+		CalculoTaxiDF.calculoTarifa("Bandeira 1", 0, 10);
 	}
 
 }
